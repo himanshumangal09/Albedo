@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+<h1 align="center">Machine Learning Model for the Planetary Albedo</h1>
 
-You can use the [editor on GitHub](https://github.com/himanshumangal09/Albedo/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+➔ Deep multi-objective regression models that can predict the chemical composition of Mercury based on data collected by the Messenger mission and also can predict the chemical composition of the Moon based on data collected by the Lunar Prospector mission.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You can use the [editor on GitHub](https://github.com/himanshumangal09/Albedo/edit/gh-pages/index.md) to view the project.
 
-### Markdown
+Planetary surfaces are observed as all electromagnetic wavelengths (e.g. radar, infrared, optical, ultraviolet, x-ray, gamma-ray), and each wavelength provides unique information about the chemistry, mineralogy, and history of the surface. Yet the information is not entirely independent. For example, the chemical element iron, which is mapped with x-rays and gamma rays, is highly related to optical albedo on the Moon. Knowing this, we can develop high-spatial resolution predictive maps of iron based on optical data. On other planets, the relationships between the observations are less well known, and indeed some datasets are missing.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The goal of the project is to use machine learning techniques to identify relationships between planetary mapped datasets, with the goal of providing deeper understanding of planetary surfaces and to have predictive power for planetary surfaces with incomplete datasets.
 
-```markdown
-Syntax highlighted code block
+## Goals
+Currently I've trained both the models on less number of n_estimators because of longer time consumption. My further goal is to improve the accuracy of both models.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/himanshumangal09/Albedo/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
